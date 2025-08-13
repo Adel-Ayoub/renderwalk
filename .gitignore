@@ -1,0 +1,30 @@
+/target
+.idea
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Rust/Rustfmt backups
+**/*.rs.bk
+
+# Swap/backup files
+*~
+*.swp
+*.swo
+
+# Coverage and profiling
+coverage/
+*.profraw
+*.profdata
+
+# direnv
+.direnv/
