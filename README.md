@@ -13,7 +13,7 @@ cd renderwalk
 cargo build --release
 
 # Run with an example model (omit arg to see generated cubes)
-cargo run --release -- example_objects/airboat.obj
+cargo run --release -- objects/airboat.obj
 ```
 
 ---
